@@ -1,4 +1,6 @@
 package com.masprogtech.planner.trip;
 
-public record TripCreateResponse() {
+import java.util.UUID;
+
+public record TripCreateResponse(UUID tripId) {
 }
